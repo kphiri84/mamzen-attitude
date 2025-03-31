@@ -23,7 +23,7 @@ export default function Retraites() {
         "Toutes les activités et ateliers",
         "Accès aux espaces communs et au jardin"
       ],
-      image: "/images/retraite-provence.jpg"
+      image: "https://images.unsplash.com/photo-1595867818082-083862f3aaf4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ export default function Retraites() {
         "Toutes les activités et ateliers",
         "Accès à la plage privée"
       ],
-      image: "/images/retraite-bretagne.jpg"
+      image: "https://images.unsplash.com/photo-1516125073169-9e3ecdee83e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
     },
     {
       id: 3,
@@ -65,7 +65,7 @@ export default function Retraites() {
         "Toutes les activités et ateliers",
         "Accès au sauna et à l'espace bien-être"
       ],
-      image: "/images/retraite-alpes.jpg"
+      image: "https://images.unsplash.com/photo-1610809027249-86c649feacd5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
     }
   ];
 
