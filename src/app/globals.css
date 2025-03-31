@@ -3,24 +3,48 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --primary-color: #A89CD7;
+  --primary-light: #C3B1E1;
+  --primary-dark: #8A7BC8;
+  --accent-color: #D4C2F0;
+  --text-on-primary: #FFFFFF;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-purple: 138, 123, 200; /* #8A7BC8 */
+  --secondary-purple: 168, 156, 215; /* #A89CD7 */
+  --light-purple: 195, 177, 225; /* #C3B1E1 */
+  --bg-light-purple: 245, 240, 255; /* #F5F0FF */
+  --accent-light-purple: 245, 230, 255; /* #F5E6FF */
+  --accent-coral: 242, 126, 150; /* #f27e96 */
+  --accent-teal: 0, 166, 156; /* #00a69c */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary-color: #A89CD7;
+    --primary-light: #C3B1E1;
+    --primary-dark: #8A7BC8;
+    --accent-color: #D4C2F0;
+    --text-on-primary: #FFFFFF;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
