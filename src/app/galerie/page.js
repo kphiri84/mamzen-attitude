@@ -16,7 +16,7 @@ export default function Galerie() {
     {
       id: 2,
       src: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3",
-      alt: "Méditation face à l'océan",
+      alt: "Méditation face à l&apos;océan",
       categorie: "activites",
       lieu: "Bretagne"
     },
@@ -58,7 +58,7 @@ export default function Galerie() {
     {
       id: 8,
       src: "https://images.unsplash.com/photo-1527142879-95b61a0916be?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
-      alt: "Villa face à l'océan",
+      alt: "Villa face à l&apos;océan",
       categorie: "lieux",
       lieu: "Bretagne"
     },
@@ -79,7 +79,7 @@ export default function Galerie() {
     {
       id: 11,
       src: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
-      alt: "Petit-déjeuner face à l'océan",
+      alt: "Petit-déjeuner face à l&apos;océan",
       categorie: "repas",
       lieu: "Bretagne"
     },
@@ -137,7 +137,7 @@ export default function Galerie() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#f27e96]/80 via-[#e06c84]/70 to-[#ff99cc]/60"></div>
         </div>
         <div className="container mx-auto px-4 z-10 relative text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Galerie <span className="text-[#00a69c]">d'images</span></h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Galerie <span className="text-[#00a69c]">d&apos;images</span></h1>
           <p className="text-xl max-w-3xl mx-auto">
             Découvrez en images nos retraites et activités
           </p>
@@ -184,7 +184,7 @@ export default function Galerie() {
         </div>
       </section>
 
-      {/* Galerie d'images */}
+      {/* Galerie d&apos;images */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

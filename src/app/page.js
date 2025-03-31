@@ -12,7 +12,7 @@ export default function Home() {
           {/* Image de fond de femme en méditation depuis Unsplash */}
           <Image
             src="https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
-            alt="Femme en méditation pour Mam'zen Attitude"
+            alt="Femme en méditation pour Mam&apos;zen Attitude"
             fill
             className="object-cover object-center"
             priority
@@ -29,7 +29,7 @@ export default function Home() {
               Retrouvez votre <span className="text-[#f27e96]">équilibre</span> et votre <span className="text-[#00a69c]">sérénité</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              Des retraites exclusives pour les mamans qui souhaitent prendre soin d'elles et se reconnecter à leur essence.
+              Des retraites exclusives pour les mamans qui souhaitent prendre soin d&apos;elles et se reconnecter à leur essence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/retraites" className="px-8 py-4 bg-white text-[#8A7BC8] rounded-full font-semibold text-lg hover:bg-[#F5F0FF] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
@@ -71,12 +71,12 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#8A7BC8] mb-6">Mam'zen Attitude</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#8A7BC8] mb-6">Mam&apos;zen Attitude</h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Mam'zen Attitude est née d'une conviction profonde : chaque maman mérite de prendre soin d'elle pour mieux s'occuper des autres.
+                Mam&apos;zen Attitude est née d&apos;une conviction profonde : chaque maman mérite de prendre soin d&apos;elle pour mieux s&apos;occuper des autres.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Nos retraites sont conçues comme des parenthèses enchantées où vous pourrez vous ressourcer, vous reconnecter à vous-même et partager avec d'autres mamans dans un cadre bienveillant et apaisant.
+                Nos retraites sont conçues comme des parenthèses enchantées où vous pourrez vous ressourcer, vous reconnecter à vous-même et partager avec d&apos;autres mamans dans un cadre bienveillant et apaisant.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-[#F5F0FF] p-6 rounded-xl">
@@ -95,7 +95,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <h3 className="text-xl font-semibold text-[#8A7BC8] mb-2">Partage</h3>
-                  <p className="text-gray-600">Des moments d'échange authentiques entre mamans</p>
+                  <p className="text-gray-600">Des moments d&apos;échange authentiques entre mamans</p>
                 </div>
               </div>
               <Link href="/a-propos" className="inline-flex items-center text-[#8A7BC8] font-semibold hover:text-[#C3B1E1] transition-colors">
@@ -162,7 +162,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-[#8A7BC8] mb-2">Évasion Océane en Bretagne</h3>
-                <p className="text-gray-600 mb-4">Une parenthèse face à l'océan pour se ressourcer au rythme des marées et retrouver votre force intérieure.</p>
+                <p className="text-gray-600 mb-4">Une parenthèse face à l&apos;océan pour se ressourcer au rythme des marées et retrouver votre force intérieure.</p>
                 <div className="flex justify-between items-center">
                   <span className="text-[#C3B1E1] font-semibold">À partir de 590€</span>
                   <Link href="/retraites" className="text-[#8A7BC8] font-medium hover:text-[#C3B1E1] transition-colors">
@@ -214,7 +214,7 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#8A7BC8] mb-4">Ce qu'elles en disent</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#8A7BC8] mb-4">Ce qu&apos;elles en disent</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Découvrez les témoignages de mamans qui ont participé à nos retraites.
             </p>
@@ -228,7 +228,7 @@ export default function Home() {
               </svg>
               <div className="pt-6">
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  "Cette retraite a été une véritable révélation pour moi. J'ai pu me reconnecter à moi-même, prendre du temps pour moi et rencontrer des femmes extraordinaires. Je repars ressourcée et pleine d'énergie !"
+                  &quot;Cette retraite a été une véritable révélation pour moi. J&apos;ai pu me reconnecter à moi-même, prendre du temps pour moi et rencontrer des femmes extraordinaires. Je repars ressourcée et pleine d&apos;énergie !&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -255,7 +255,7 @@ export default function Home() {
               </svg>
               <div className="pt-6">
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  "Un moment hors du temps, dans un cadre magnifique. Les ateliers étaient parfaitement adaptés à mes besoins et l'équipe était à l'écoute et bienveillante. Je recommande vivement !"
+                  &quot;Un moment hors du temps, dans un cadre magnifique. Les ateliers étaient parfaitement adaptés à mes besoins et l&apos;équipe était à l&apos;écoute et bienveillante. Je recommande vivement !&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -282,7 +282,7 @@ export default function Home() {
               </svg>
               <div className="pt-6">
                 <p className="text-gray-700 mb-6 leading-relaxed">
-                  "J'avais besoin de prendre du recul sur ma vie de maman. Cette retraite m'a permis de me recentrer, de prendre soin de moi et de repartir avec des outils concrets pour mon quotidien."
+                  &quot;J&apos;avais besoin de prendre du recul sur ma vie de maman. Cette retraite m&apos;a permis de me recentrer, de prendre soin de moi et de repartir avec des outils concrets pour mon quotidien.&quot;
                 </p>
                 <div className="flex items-center">
                   <div className="w-12 h-12 rounded-full overflow-hidden mr-4">
@@ -296,7 +296,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-[#8A7BC8]">Émilie, 29 ans</h4>
-                    <p className="text-sm text-gray-500">Maman d'un enfant</p>
+                    <p className="text-sm text-gray-500">Maman d&apos;un enfant</p>
                   </div>
                 </div>
               </div>
@@ -370,7 +370,7 @@ export default function Home() {
                   type="submit" 
                   className="px-8 py-4 bg-[#f27e96] text-white rounded-full font-semibold hover:bg-[#e06c84] transition-all duration-300 shadow-md hover:shadow-lg"
                 >
-                  S'inscrire
+                  S&apos;inscrire
                 </button>
               </form>
               <p className="text-sm text-gray-500 mt-4">

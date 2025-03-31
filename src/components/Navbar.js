@@ -31,7 +31,7 @@ export default function Navbar() {
             <Link href="/" className="flex-shrink-0 font-bold text-2xl tracking-tight hover:opacity-80 transition-opacity">
               <span className="flex items-center">
                 <span className="mr-2 text-[#C3B1E1]">✿</span>
-                Mam'zen Attitude
+                Mam&apos;zen Attitude
               </span>
             </Link>
             <div className="hidden md:block ml-10">

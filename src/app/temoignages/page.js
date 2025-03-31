@@ -111,7 +111,7 @@ export default function Temoignages() {
                       <p className="text-[#00a69c] text-sm">{temoignage.retraite}</p>
                     </div>
                   </div>
-                  <p className="text-gray-600 italic mb-4">"{temoignage.texte}"</p>
+                  <p className="text-gray-600 italic mb-4">&quot;{temoignage.texte}&quot;</p>
                 </div>
               </div>
             ))}

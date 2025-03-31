@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="md:col-span-4">
             <div className="flex items-center mb-6">
               <span className="text-[#F5F0FF] text-3xl mr-2">✿</span>
-              <h2 className="text-xl font-bold tracking-tight text-white">Mam'zen Attitude</h2>
+              <h2 className="text-xl font-bold tracking-tight text-white">Mam&apos;zen Attitude</h2>
             </div>
             <p className="text-[#F5F0FF] mb-6 leading-relaxed">
               Des retraites spéciales pour mamans dans des lieux ressourçants pour vous reconnecter à vous-même et retrouver votre équilibre.
@@ -135,14 +135,14 @@ export default function Footer() {
                 type="submit"
                 className="w-full bg-white text-[#8A7BC8] font-medium py-3 px-4 rounded-lg hover:bg-[#F5F0FF] transition-colors duration-300"
               >
-                S'inscrire
+                S&apos;inscrire
               </button>
             </form>
           </div>
         </div>
         
         <div className="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center text-[#F5F0FF] text-sm">
-          <p> {currentYear} Mam'zen Attitude. Tous droits réservés.</p>
+          <p> {currentYear} Mam&apos;zen Attitude. Tous droits réservés.</p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <Link href="/mentions-legales" className="hover:text-white transition-colors">
               Mentions légales
