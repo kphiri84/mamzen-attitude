@@ -188,42 +188,31 @@ export default function Retraites() {
                 <span className="text-3xl font-bold text-[#C3B1E1]">990€</span>
                 <span className="text-gray-500 ml-2">/ personne</span>
               </div>
+              <p className="font-medium text-[#8A7BC8] mb-3 text-center">LE PACK PREMIUM COMPREND :</p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Hébergement en chambre individuelle</span>
+                  <span><strong>TRANSPORT :</strong> Depuis la gare ou l&apos;aéroport (navette privée)</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Repas gastronomiques bio et locaux</span>
+                  <span><strong>HÉBERGEMENT :</strong> Chambre individuelle, prestation haut de gamme</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>Toutes les activités de groupe</span>
+                  <span><strong>ACTIVITÉS :</strong> Accès à toutes les activités proposées, incluant soins ou atelier exclusif, excursions privées</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span>3 ateliers individuels au choix</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Accès illimité aux espaces bien-être</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Transfert depuis la gare/aéroport inclus</span>
+                  <span><strong>EXTRAS :</strong> Cadeau de bienvenue haut de gamme</span>
                 </li>
               </ul>
               <div className="text-center">
