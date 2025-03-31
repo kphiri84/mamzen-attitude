@@ -15,7 +15,7 @@ export default function APropos() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#8A7BC8]/80 via-[#A89CD7]/70 to-[#C3B1E1]/60"></div>
         </div>
         <div className="container mx-auto px-4 z-10 relative text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">À propos de <span className="text-[#f27e96]">Mam&apos;zen</span> <span className="text-[#00a69c]">Attitude</span></h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">À propos de <span className="text-[#f27e96]">Break</span> <span className="text-[#00a69c]">Mums</span></h1>
           <p className="text-xl max-w-3xl mx-auto">
             Découvrez notre histoire, nos valeurs et notre mission pour vous accompagner dans votre parcours de maman.
           </p>
@@ -29,7 +29,7 @@ export default function APropos() {
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Fondatrice de Mam'zen Attitude"
+                alt="Fondatrice de Break Mums"
                 fill
                 className="object-cover"
               />
@@ -37,13 +37,24 @@ export default function APropos() {
             <div>
               <h2 className="text-3xl font-bold text-[#8A7BC8] mb-6">Mon <span className="text-[#f27e96]">histoire</span></h2>
               <p className="text-gray-600 mb-4">
-                Maman de trois enfants, mon parcours professionnel initial en tant qu&apos;aide médico-psychologique pendant de nombreuses années a profondément nourri mon désir de prendre soin des autres et de contribuer à leur épanouissement. Cette expérience m&apos;a permis de développer des qualités essentielles comme l&apos;empathie, une écoute attentive et une capacité à gérer les situations avec douceur et compréhension - des valeurs que j&apos;ai toujours placées au cœur de mes interactions.
+                Je m&apos;appelle Audrey, je suis maman de trois adorables enfants. Ancienne aide médico psychologique, je suis depuis 2021, directrice d&apos;une société de transport privé.
+                De nos jours, une maman doit allier sa vie professionnelle, personnelle et familiale.
               </p>
               <p className="text-gray-600 mb-4">
-                Aujourd&apos;hui, forte de cette riche expérience humaine, j&apos;ai choisi de donner un nouvel élan à ma carrière en créant des séjours de retraite dédiés spécialement aux mamans. Ce projet est né d&apos;une envie profonde de concevoir un espace où l&apos;équilibre entre vie personnelle et professionnelle devient réalité, tout en me permettant d&apos;exprimer pleinement mes qualités relationnelles et mon sens de l&apos;organisation, dans une atmosphère bienveillante.
+                Le besoin de moment de répit, de ressourcement et de reconnexion avec soi-même est de plus en plus fort.
+                Une idée m&apos;est venue... Pourquoi ne pas créer des séjours conçus spécialement pour des mamans ?
+              </p>
+              <p className="text-gray-600 mb-4">
+                La naissance de &quot;mon nouveau bébé&quot; &quot;Break Mums&quot;.
+              </p>
+              <p className="text-gray-600 mb-4">
+                &quot;Break Mums&quot; est un projet unique, né d&apos;une envie profonde de concevoir un espace où l&apos;équilibre entre la vie personnelle et professionnelle devient réalité dans une atmosphère chaleureuse.
+              </p>
+              <p className="text-gray-600 mb-4">
+                Les séjours proposés ont pour but de permettre aux mamans de souffler, se ressourcer, échanger avec d&apos;autres mamans tout en prenant soin d&apos;elles.
               </p>
               <p className="text-gray-600">
-                Imaginez un lieu accueillant, comme un château chaleureux, où les mamans pourraient se retrouver pour une parenthèse enchantée. Un espace de détente pensé pour elles, pour qu&apos;elles puissent échanger, partager leurs expériences de vie et surtout, se sentir écoutées et comprises, dans une ambiance harmonieuse et conviviale. Je suis convaincue que mon cheminement dans le secteur du soin, où l&apos;écoute et l&apos;attention aux besoins de l&apos;autre étaient primordiales, est un atout précieux pour tisser ces séjours uniques. Mon rêve est d&apos;offrir à ces mamans un temps rien qu&apos;à elles, une véritable bulle de bien-être où elles pourront se ressourcer en toute sérénité et repartir le cœur léger et rempli d&apos;énergie.
+                Mon but est de créer des séjours insolites dans des lieux choisis avec soin, tout en proposant des activités liant bien-être, créativité et relaxation.
               </p>
             </div>
           </div>
@@ -56,7 +67,7 @@ export default function APropos() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Nos <span className="text-[#00a69c]">valeurs</span></h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Chez Mam&apos;zen Attitude, nous croyons fermement en ces principes qui guident toutes nos actions.
+              Chez Break Mums, nous croyons fermement en ces principes qui guident toutes nos actions.
             </p>
           </div>
           
@@ -107,7 +118,7 @@ export default function APropos() {
             <h2 className="text-3xl font-bold text-[#8A7BC8] mb-6">Notre <span className="text-[#00a69c]">mission</span></h2>
             <div className="text-lg text-gray-600 space-y-4">
               <p>
-                Notre mission chez Mam&apos;zen Attitude est d&apos;accompagner les mamans dans leur voyage vers un équilibre de vie épanouissant. Nous croyons fermement qu&apos;une maman épanouie rayonne sur toute sa famille.
+                Notre mission chez Break Mums est d&apos;accompagner les mamans dans leur voyage vers un équilibre de vie épanouissant. Nous croyons fermement qu&apos;une maman épanouie rayonne sur toute sa famille.
               </p>
               <p>
                 À travers nos retraites, nous souhaitons offrir aux mamans :
@@ -130,7 +141,7 @@ export default function APropos() {
       {/* Call to Action */}
       <section className="py-16 bg-gradient-to-r from-[#8A7BC8] via-[#A89CD7] to-[#C3B1E1] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Prête à vivre l&apos;expérience Mam&apos;zen Attitude ?</h2>
+          <h2 className="text-3xl font-bold mb-4">Prête à vivre l&apos;expérience Break Mums ?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Rejoignez-nous pour une retraite qui vous permettra de vous reconnecter à vous-même et de repartir ressourcée.
           </p>
