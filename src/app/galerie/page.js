@@ -212,7 +212,7 @@ export default function Galerie() {
       {/* Call to Action */}
       <section className="py-16 bg-[#8A7BC8] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Envie de vivre l'expérience Mam'zen Attitude ?</h2>
+          <h2 className="text-3xl font-bold mb-4">Envie de vivre l&apos;expérience Mam&apos;zen Attitude ?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Découvrez nos séjours conçus spécialement pour les mamans qui ont besoin de se ressourcer.
           </p>

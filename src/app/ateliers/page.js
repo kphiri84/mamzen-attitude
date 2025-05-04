@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: 'Nos Ateliers | Mam\'zen Attitude',
+  title: 'Nos Ateliers | Mam&apos;zen Attitude',
   description: 'Découvrez nos ateliers bien-être pour mamans : yoga, coaching santé, traitements holistiques et bien plus encore.',
 };
 
@@ -53,7 +53,7 @@ export default function Ateliers() {
     {
       id: 7,
       titre: "CRÉATIVITÉ ET EXPRESSION",
-      description: "Laissez votre âme créative s'exprimer ! Peinture, modelage mais également ateliers d'écriture sont proposés.",
+      description: "Laissez votre âme créative s&apos;exprimer ! Peinture, modelage mais également ateliers d&apos;écriture sont proposés.",
       image: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       couleur: "#8A7BC8"
     },
@@ -82,7 +82,7 @@ export default function Ateliers() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 my-16 text-center">
         <h2 className="text-3xl font-semibold text-[#8A7BC8] mb-6">Découvrez nos ateliers bien-être</h2>
         <p className="text-lg text-gray-700 mb-8">
-          Chez Mam'zen Attitude, nous proposons une variété d'ateliers conçus pour vous aider à vous reconnecter à vous-même, 
+          Chez Mam&apos;zen Attitude, nous proposons une variété d&apos;ateliers conçus pour vous aider à vous reconnecter à vous-même, 
           à vous détendre et à développer de nouvelles compétences. Tous nos ateliers sont adaptés à tous les niveaux et 
           encadrés par des professionnels bienveillants.
         </p>
@@ -143,7 +143,7 @@ export default function Ateliers() {
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "L'atelier de yoga m'a permis de me reconnecter à mon corps après ma grossesse. L'ambiance était bienveillante et adaptée à mon niveau. Je me sens plus sereine et énergique au quotidien !"
+                &quot;L&apos;atelier de yoga m&apos;a permis de me reconnecter à mon corps après ma grossesse. L&apos;ambiance était bienveillante et adaptée à mon niveau. Je me sens plus sereine et énergique au quotidien !&quot;
               </p>
             </div>
             
@@ -159,18 +159,18 @@ export default function Ateliers() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-[#8A7BC8]">Marie L.</h3>
-                  <p className="text-sm text-gray-500">Maman d'un enfant</p>
+                  <p className="text-sm text-gray-500">Maman d&apos;un enfant</p>
                 </div>
               </div>
               <p className="text-gray-700 italic">
-                "Les sessions de coaching m'ont donné des outils concrets pour gérer mon stress et mieux communiquer avec mes proches. Une vraie révélation qui a transformé mon quotidien !"
+                &quot;Les sessions de coaching m&apos;ont donné des outils concrets pour gérer mon stress et mieux communiquer avec mes proches. Une vraie révélation qui a transformé mon quotidien !&quot;
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Appel à l'action */}
+      {/* Appel à l&apos;action */}
       <div className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-[#F5F0FF] rounded-2xl p-8 md:p-12">

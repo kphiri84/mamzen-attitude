@@ -29,7 +29,7 @@ export default function Lieux() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Nos lieux</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Découvrez nos châteaux d'exception, véritables écrins de bien-être pour votre parenthèse enchantée
+            Découvrez nos châteaux d&apos;exception, véritables écrins de bien-être pour votre parenthèse enchantée
           </p>
         </div>
       </section>
@@ -40,10 +40,10 @@ export default function Lieux() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-[#8A7BC8] mb-6">Des lieux choisis avec <span className="text-[#A89CD7]">cœur</span></h2>
             <p className="text-lg text-gray-600 mb-8">
-              Chez Break Mums, nous croyons que l'environnement joue un rôle essentiel dans votre expérience de ressourcement. C'est pourquoi nous avons sélectionné avec le plus grand soin des châteaux d'exception, alliant charme historique, confort moderne et cadre naturel préservé.
+              Chez Break Mums, nous croyons que l&apos;environnement joue un rôle essentiel dans votre expérience de ressourcement. C&apos;est pourquoi nous avons sélectionné avec le plus grand soin des châteaux d&apos;exception, alliant charme historique, confort moderne et cadre naturel préservé.
             </p>
             <p className="text-lg text-gray-600">
-              Chaque lieu a été choisi pour sa capacité à vous offrir un véritable cocon, loin du tumulte quotidien, où vous pourrez vous reconnecter à vous-même et partager des moments précieux avec d'autres mamans dans un cadre bienveillant et inspirant.
+              Chaque lieu a été choisi pour sa capacité à vous offrir un véritable cocon, loin du tumulte quotidien, où vous pourrez vous reconnecter à vous-même et partager des moments précieux avec d&apos;autres mamans dans un cadre bienveillant et inspirant.
             </p>
           </div>
         </div>
@@ -53,7 +53,7 @@ export default function Lieux() {
       <section className="py-16 bg-[#F5F0FF]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Nos châteaux d'exception</h2>
+            <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Nos châteaux d&apos;exception</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Découvrez les écrins de bien-être qui accueillent nos séjours Break Mums
             </p>
@@ -99,9 +99,9 @@ export default function Lieux() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">L'expérience Break Mums</h2>
+            <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">L&apos;expérience Break Mums</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Bien plus qu'un simple séjour, une véritable parenthèse enchantée
+              Bien plus qu&apos;un simple séjour, une véritable parenthèse enchantée
             </p>
           </div>
           
@@ -114,7 +114,7 @@ export default function Lieux() {
               </div>
               <h3 className="text-xl font-bold text-[#8A7BC8] mb-4">Cadre exceptionnel</h3>
               <p className="text-gray-600">
-                Des châteaux sélectionnés avec soin pour leur charme, leur confort et leur environnement paisible, propices à la détente et à l'introspection.
+                Des châteaux sélectionnés avec soin pour leur charme, leur confort et leur environnement paisible, propices à la détente et à l&apos;introspection.
               </p>
             </div>
             
@@ -148,9 +148,9 @@ export default function Lieux() {
       {/* CTA */}
       <section className="py-16 bg-gradient-to-r from-[#8A7BC8] via-[#A89CD7] to-[#C3B1E1] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Envie d'en savoir plus ?</h2>
+          <h2 className="text-3xl font-bold mb-4">Envie d&apos;en savoir plus ?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Contactez-nous pour découvrir nos prochaines dates de séjour et réserver votre parenthèse enchantée dans l'un de nos châteaux d'exception.
+            Contactez-nous pour découvrir nos prochaines dates de séjour et réserver votre parenthèse enchantée dans l&apos;un de nos châteaux d&apos;exception.
           </p>
           <Link href="/contact" className="bg-white text-[#8A7BC8] hover:bg-[#F5F0FF] px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1 inline-block">
             Nous contacter

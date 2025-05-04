@@ -78,7 +78,7 @@ export default function Devis() {
             <div>
               <h2 className="text-3xl font-bold text-[#8A7BC8] mb-6">Votre séjour sur mesure</h2>
               <p className="text-gray-600 mb-8">
-                Chez Mam'zen Attitude, nous comprenons que chaque maman a des besoins uniques. C&apos;est pourquoi nous vous proposons de créer un séjour entièrement personnalisé selon vos préférences.
+                Chez Mam&apos;zen Attitude, nous comprenons que chaque maman a des besoins uniques. C&apos;est pourquoi nous vous proposons de créer un séjour entièrement personnalisé selon vos préférences.
               </p>
               
               <div className="space-y-6">
@@ -351,7 +351,7 @@ export default function Devis() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "J&apos;ai pu créer un séjour exactement comme je le souhaitais. L&apos;équipe a été très à l&apos;écoute de mes besoins et a su me proposer des activités parfaitement adaptées à mes envies."
+                &quot;J&apos;ai pu créer un séjour exactement comme je le souhaitais. L&apos;équipe a été très à l&apos;écoute de mes besoins et a su me proposer des activités parfaitement adaptées à mes envies.&quot;
               </p>
             </div>
             
@@ -366,7 +366,7 @@ export default function Devis() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Grâce au devis personnalisé, j&apos;ai pu organiser une retraite pour mon groupe d&apos;amies mamans. Nous avons vécu un moment inoubliable, avec un programme sur mesure qui correspondait parfaitement à nos attentes."
+                &quot;Grâce au devis personnalisé, j&apos;ai pu organiser une retraite pour mon groupe d&apos;amies mamans. Nous avons vécu un moment inoubliable, avec un programme sur mesure qui correspondait parfaitement à nos attentes.&quot;
               </p>
             </div>
             
@@ -381,7 +381,7 @@ export default function Devis() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Le rapport qualité-prix de mon séjour personnalisé était excellent. J&apos;ai pu choisir uniquement ce qui m&apos;intéressait vraiment et adapter le budget à mes possibilités."
+                &quot;Le rapport qualité-prix de mon séjour personnalisé était excellent. J&apos;ai pu choisir uniquement ce qui m&apos;intéressait vraiment et adapter le budget à mes possibilités.&quot;
               </p>
             </div>
           </div>

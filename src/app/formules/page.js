@@ -74,7 +74,7 @@ export default function Formules() {
         <p className="text-lg text-gray-700 mb-8">
           Pour chaque retraite, nous proposons trois formules adaptées à vos besoins et à votre budget.
           Que vous cherchiez une expérience partagée ou un séjour plus exclusif, 
-          nous avons la formule qu'il vous faut.
+          nous avons la formule qu&apos;il vous faut.
         </p>
       </div>
 
