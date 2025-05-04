@@ -125,21 +125,12 @@ export default function Galerie() {
 
   return (
     <div className="w-full">
-      {/* En-tête de page */}
-      <section className="relative py-20 bg-[#f27e96] text-white">
-        <div className="absolute inset-0 z-0 overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3"
-            alt="Femme prenant des photos"
-            fill
-            className="object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#f27e96]/80 via-[#e06c84]/70 to-[#ff99cc]/60"></div>
-        </div>
-        <div className="container mx-auto px-4 z-10 relative text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Galerie <span className="text-[#00a69c]">d&apos;images</span></h1>
+      {/* En-tête de page simple */}
+      <section className="py-16 pt-24 bg-[#8A7BC8] text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Galerie</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Découvrez en images nos retraites et activités
+            Découvrez en images les moments précieux de nos séjours Break Mums
           </p>
         </div>
       </section>
@@ -154,7 +145,7 @@ export default function Galerie() {
                 id="categorie" 
                 value={filtreCategorie}
                 onChange={(e) => setFiltreCategorie(e.target.value)}
-                className="px-4 py-2 border border-gray-300 rounded-md focus:ring-[#f27e96] focus:border-[#f27e96]"
+                className="px-4 py-2 border border-gray-300 rounded-md focus:ring-[#8A7BC8] focus:border-[#8A7BC8]"
               >
                 <option value="toutes">Toutes les catégories</option>
                 <option value="activites">Activités</option>
@@ -172,7 +163,7 @@ export default function Galerie() {
                 id="lieu" 
                 value={filtreLieu}
                 onChange={(e) => setFiltreLieu(e.target.value)}
-                className="px-4 py-2 border border-gray-300 rounded-md focus:ring-[#00a69c] focus:border-[#00a69c]"
+                className="px-4 py-2 border border-gray-300 rounded-md focus:ring-[#8A7BC8] focus:border-[#8A7BC8]"
               >
                 <option value="tous">Tous les lieux</option>
                 <option value="Provence">Provence</option>
@@ -184,7 +175,7 @@ export default function Galerie() {
         </div>
       </section>
 
-      {/* Galerie d&apos;images */}
+      {/* Galerie d'images */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -200,8 +191,10 @@ export default function Galerie() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="text-white font-semibold">{image.alt}</h3>
-                    <p className="text-white/80 text-sm">{image.lieu}</p>
+                    <div className="flex justify-between items-center">
+                      <span className="text-white font-medium">{image.alt}</span>
+                      <span className="bg-[#8A7BC8] text-white text-xs px-2 py-1 rounded-full">{image.lieu}</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -213,6 +206,30 @@ export default function Galerie() {
               <p className="text-lg text-gray-600">Aucune image ne correspond à vos critères de recherche.</p>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-[#8A7BC8] text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-4">Envie de vivre l'expérience Mam'zen Attitude ?</h2>
+          <p className="text-xl mb-8 max-w-2xl mx-auto">
+            Découvrez nos séjours conçus spécialement pour les mamans qui ont besoin de se ressourcer.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="/lieux" 
+              className="bg-[#8A7BC8] hover:bg-[#A89CD7] text-white transition-colors px-6 py-3 rounded-full text-lg font-medium inline-block border-2 border-white"
+            >
+              Découvrir nos lieux
+            </a>
+            <a 
+              href="/contact" 
+              className="bg-white text-[#8A7BC8] hover:bg-[#F5F0FF] transition-colors px-6 py-3 rounded-full text-lg font-medium inline-block"
+            >
+              Nous contacter
+            </a>
+          </div>
         </div>
       </section>
     </div>

@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Retraites() {
-  // Données des retraites (dans un projet réel, ces données viendraient d'une API ou d'une base de données)
-  const retraites = [
+export default function Lieux() {
+  // Données des lieux (dans un projet réel, ces données viendraient d'une API ou d'une base de données)
+  const lieux = [
     {
       id: 1,
-      titre: "Retraite Printemps en Provence",
+      titre: "Lieu Printemps en Provence",
       lieu: "Mas provençal, Luberon",
       dates: "15-19 mai 2025",
-      description: "Une retraite de 5 jours au cœur de la Provence pour se reconnecter à soi et à la nature. Profitez des champs de lavande, des activités de plein air et des ateliers de développement personnel.",
+      description: "Une parenthèse de 5 jours au cœur de la Provence pour se reconnecter à soi et à la nature. Profitez des champs de lavande, des activités de plein air et des ateliers de développement personnel.",
       programme: [
         "Yoga matinal en plein air",
         "Ateliers de méditation et de pleine conscience",
@@ -71,198 +71,54 @@ export default function Retraites() {
 
   return (
     <div className="w-full">
-      {/* En-tête de page */}
-      <section className="relative py-20 bg-[#A89CD7] text-white">
-        <div className="absolute inset-0 z-0 overflow-hidden">
-          <div className="bg-gradient-to-r from-[#8A7BC8] via-[#A89CD7] to-[#C3B1E1] w-full h-full opacity-80"></div>
-        </div>
-        <div className="container mx-auto px-4 z-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Nos retraites</h1>
+      {/* En-tête de page simple */}
+      <section className="py-16 pt-24 bg-[#8A7BC8] text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Nos Retraites</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Découvrez nos séjours exclusifs pour mamans dans des lieux d&apos;exception
+            Découvrez nos séjours bien-être conçus spécialement pour les mamans
           </p>
         </div>
       </section>
 
-      {/* Présentation des formules */}
-      <section className="py-16 bg-[#F5F0FF]">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Nos formules</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Pour chaque retraite, nous proposons trois formules adaptées à vos besoins et à votre budget.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-[#8A7BC8] mb-4 text-center">Pack Essentiel</h3>
-              <div className="text-center mb-6">
-                <span className="text-3xl font-bold text-[#C3B1E1]">590€</span>
-                <span className="text-gray-500 ml-2">/ personne</span>
-              </div>
-              <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Hébergement en chambre partagée (3-4 personnes)</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Repas sains et équilibrés</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Toutes les activités de groupe</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Accès aux espaces communs</span>
-                </li>
-              </ul>
-              <div className="text-center">
-                <Link href="/contact" className="inline-block bg-[#A89CD7] hover:bg-[#8A7BC8] text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Réserver
-                </Link>
-              </div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-lg shadow-md transform scale-105 border-2 border-[#A89CD7] relative">
-              <div className="absolute top-0 right-0 bg-[#A89CD7] text-white px-4 py-1 text-sm font-semibold rounded-bl-lg">
-                Populaire
-              </div>
-              <h3 className="text-2xl font-bold text-[#8A7BC8] mb-4 text-center">Pack Sérénité</h3>
-              <div className="text-center mb-6">
-                <span className="text-3xl font-bold text-[#C3B1E1]">790€</span>
-                <span className="text-gray-500 ml-2">/ personne</span>
-              </div>
-              <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Hébergement en chambre double</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Repas bio et locaux</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Toutes les activités de groupe</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>1 atelier individuel au choix</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span>Accès prioritaire aux espaces bien-être</span>
-                </li>
-              </ul>
-              <div className="text-center">
-                <Link href="/contact" className="inline-block bg-[#C3B1E1] hover:bg-[#A89CD7] text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Réserver
-                </Link>
-              </div>
-            </div>
-            
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-[#8A7BC8] mb-4 text-center">Pack Premium</h3>
-              <div className="text-center mb-6">
-                <span className="text-3xl font-bold text-[#C3B1E1]">990€</span>
-                <span className="text-gray-500 ml-2">/ personne</span>
-              </div>
-              <p className="font-medium text-[#8A7BC8] mb-3 text-center">LE PACK PREMIUM COMPREND :</p>
-              <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span><strong>TRANSPORT :</strong> Depuis la gare ou l&apos;aéroport (navette privée)</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span><strong>HÉBERGEMENT :</strong> Chambre individuelle, prestation haut de gamme</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span><strong>ACTIVITÉS :</strong> Accès à toutes les activités proposées, incluant soins ou atelier exclusif, excursions privées</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="w-5 h-5 text-[#A89CD7] mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
-                  </svg>
-                  <span><strong>EXTRAS :</strong> Cadeau de bienvenue haut de gamme</span>
-                </li>
-              </ul>
-              <div className="text-center">
-                <Link href="/contact" className="inline-block bg-[#A89CD7] hover:bg-[#8A7BC8] text-white font-medium py-2 px-6 rounded-full transition-colors">
-                  Réserver
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Liste des retraites */}
+      {/* Liste des lieux */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Nos prochaines retraites</h2>
+            <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Nos prochains séjours</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Choisissez la destination qui vous inspire et rejoignez-nous pour une expérience inoubliable.
             </p>
           </div>
           
           <div className="space-y-16">
-            {retraites.map((retraite) => (
-              <div key={retraite.id} className="bg-[#F5F0FF] rounded-lg overflow-hidden shadow-lg">
+            {lieux.map((lieu) => (
+              <div key={lieu.id} className="bg-[#F5F0FF] rounded-lg overflow-hidden shadow-lg">
                 <div className="grid grid-cols-1 md:grid-cols-2">
                   <div className="relative h-64 md:h-auto">
                     <Image 
-                      src={retraite.image} 
-                      alt={retraite.titre} 
+                      src={lieu.image} 
+                      alt={lieu.titre} 
                       fill
                       className="object-cover"
                     />
                   </div>
                   <div className="p-8">
-                    <h3 className="text-2xl font-bold text-[#8A7BC8] mb-2">{retraite.titre}</h3>
+                    <h3 className="text-2xl font-bold text-[#8A7BC8] mb-2">{lieu.titre}</h3>
                     <div className="flex items-center mb-4">
                       <svg className="w-5 h-5 text-[#C3B1E1] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                       </svg>
-                      <span className="text-gray-600">{retraite.lieu}</span>
+                      <span className="text-gray-600">{lieu.lieu}</span>
                     </div>
                     <div className="flex items-center mb-4">
                       <svg className="w-5 h-5 text-[#C3B1E1] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                       </svg>
-                      <span className="text-gray-600">{retraite.dates}</span>
+                      <span className="text-gray-600">{lieu.dates}</span>
                     </div>
-                    <p className="text-gray-600 mb-6">{retraite.description}</p>
+                    <p className="text-gray-600 mb-6">{lieu.description}</p>
                     <div className="flex flex-wrap gap-2 mb-6">
                       <span className="bg-[#E9E1F8] text-[#8A7BC8] px-3 py-1 rounded-full text-sm">Yoga</span>
                       <span className="bg-[#E9E1F8] text-[#8A7BC8] px-3 py-1 rounded-full text-sm">Méditation</span>
@@ -294,7 +150,7 @@ export default function Retraites() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Questions fréquentes</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Vous avez des questions sur nos retraites ? Consultez notre FAQ ci-dessous.
+              Vous avez des questions sur nos séjours ? Consultez notre FAQ ci-dessous.
             </p>
           </div>
           
@@ -325,6 +181,37 @@ export default function Retraites() {
               <p className="text-gray-600">
                 Oui, nous prenons en compte les allergies et intolérances alimentaires, ainsi que les régimes spécifiques (végétarien, végétalien, sans gluten, etc.). Merci de nous préciser vos besoins lors de votre inscription.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section CTA */}
+      <section className="py-16 bg-[#F5F0FF]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2">
+              <div className="p-10 flex flex-col justify-center">
+                <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Vous souhaitez une <span className="text-[#f27e96]">formule personnalisée</span> ?</h2>
+                <p className="text-gray-600 mb-6">
+                  Nous pouvons créer un séjour sur mesure selon vos besoins spécifiques. Contactez-nous pour discuter de vos envies et obtenir un devis personnalisé.
+                </p>
+                <Link href="/devis" className="inline-block bg-[#f27e96] hover:bg-[#e06c84] text-white px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1 self-start">
+                  Demander un devis personnalisé
+                  <svg className="w-4 h-4 ml-2 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
+                </Link>
+              </div>
+              <div className="relative h-64 md:h-auto">
+                <Image
+                  src="https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?q=80&w=2574&auto=format&fit=crop"
+                  alt="Lieu personnalisé"
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#8A7BC8]/30 to-transparent"></div>
+              </div>
             </div>
           </div>
         </div>

@@ -11,28 +11,28 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#8A7BC8]/60 via-[#A89CD7]/50 to-[#C3B1E1]/40 z-10"></div>
           {/* Image de fond de femme en méditation depuis Unsplash */}
           <Image
-            src="https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
-            alt="Femme en méditation pour Mam&apos;zen Attitude"
+            src="https://static.langimg.com/thumb/102174099/vijay-karnataka-102174099.jpg?imgsize=405500&width=1200&height=900"
+            alt="Femme en méditation pour Break Mums"
             fill
             className="object-cover object-center"
             priority
           />
           {/* Élément décoratif flou */}
-          <div className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full bg-[#C3B1E1]/20 blur-3xl z-0"></div>
-          <div className="absolute bottom-1/3 left-1/3 w-80 h-80 rounded-full bg-[#8A7BC8]/10 blur-3xl z-0"></div>
+          <div className="absolute top-1/4 right-1/4 w-64 h-64 rounded-full bg-[#8A7BC8]/20 blur-3xl z-0"></div>
+          <div className="absolute bottom-1/3 left-1/3 w-80 h-80 rounded-full bg-[#A89CD7]/10 blur-3xl z-0"></div>
         </div>
         
         {/* Contenu du hero avec animation d'entrée */}
         <div className="container mx-auto px-4 z-10 relative">
           <div className="max-w-3xl animate-fadeIn">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Retrouvez votre <span className="text-[#f27e96]">équilibre</span> et votre <span className="text-[#00a69c]">sérénité</span>
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+              Bienvenue chez <span className="text-[#C3B1E1]">Break</span> <span className="text-[#F5F0FF]">Mums</span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
               Des retraites exclusives pour les mamans qui souhaitent prendre soin d&apos;elles et se reconnecter à leur essence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/retraites" className="px-8 py-4 bg-white text-[#8A7BC8] rounded-full font-semibold text-lg hover:bg-[#F5F0FF] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
+              <Link href="/retraites" className="px-8 py-4 bg-[#8A7BC8] text-white rounded-full font-semibold text-lg hover:bg-[#A89CD7] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-flex items-center justify-center">
                 Découvrir nos retraites
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -71,16 +71,16 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#8A7BC8] mb-6">Mam&apos;zen Attitude</h2>
+              <h2 className="text-3xl font-bold text-[#8A7BC8] mb-6">Notre <span className="text-[#A89CD7]">concept</span></h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Mam&apos;zen Attitude est née d&apos;une conviction profonde : chaque maman mérite de prendre soin d&apos;elle pour mieux s&apos;occuper des autres.
+                Break Mums est née d&apos;une conviction profonde : chaque maman mérite de prendre soin d&apos;elle pour mieux s&apos;occuper des autres.
               </p>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
                 Nos retraites sont conçues comme des parenthèses enchantées où vous pourrez vous ressourcer, vous reconnecter à vous-même et partager avec d&apos;autres mamans dans un cadre bienveillant et apaisant.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                 <div className="bg-[#F5F0FF] p-6 rounded-xl">
-                  <div className="w-12 h-12 bg-[#f27e96] rounded-full flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-[#8A7BC8] rounded-full flex items-center justify-center mb-4">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
@@ -89,16 +89,16 @@ export default function Home() {
                   <p className="text-gray-600">Des activités pensées pour votre équilibre physique et mental</p>
                 </div>
                 <div className="bg-[#F5F0FF] p-6 rounded-xl">
-                  <div className="w-12 h-12 bg-[#00a69c] rounded-full flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-[#A89CD7] rounded-full flex items-center justify-center mb-4">
                     <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-semibold text-[#8A7BC8] mb-2">Partage</h3>
+                  <h3 className="text-xl font-semibold text-[#A89CD7] mb-2">Partage</h3>
                   <p className="text-gray-600">Des moments d&apos;échange authentiques entre mamans</p>
                 </div>
               </div>
-              <Link href="/a-propos" className="inline-flex items-center text-[#8A7BC8] font-semibold hover:text-[#C3B1E1] transition-colors">
+              <Link href="/a-propos" className="inline-flex items-center text-[#8A7BC8] font-semibold hover:text-[#A89CD7] transition-colors">
                 Découvrir notre histoire
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -124,7 +124,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="relative h-64">
                 <Image 
-                  src="https://images.unsplash.com/photo-1591291621164-2c6367723315?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                  src="https://images.unsplash.com/photo-1591291621164-2bf958298935?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3" 
                   alt="Retraite en Provence" 
                   fill
                   className="object-cover"
@@ -138,8 +138,8 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-[#8A7BC8] mb-2">Retraite Printemps en Provence</h3>
                 <p className="text-gray-600 mb-4">Une parenthèse enchantée au cœur des champs de lavande pour se reconnecter à soi et à la nature.</p>
                 <div className="flex justify-between items-center">
-                  <span className="text-[#C3B1E1] font-semibold">À partir de 590€</span>
-                  <Link href="/retraites" className="text-[#8A7BC8] font-medium hover:text-[#C3B1E1] transition-colors">
+                  <span className="text-[#A89CD7] font-semibold">À partir de 590€</span>
+                  <Link href="/retraites" className="text-[#8A7BC8] font-medium hover:text-[#A89CD7] transition-colors">
                     En savoir plus
                   </Link>
                 </div>
@@ -164,8 +164,8 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-[#8A7BC8] mb-2">Évasion Océane en Bretagne</h3>
                 <p className="text-gray-600 mb-4">Une parenthèse face à l&apos;océan pour se ressourcer au rythme des marées et retrouver votre force intérieure.</p>
                 <div className="flex justify-between items-center">
-                  <span className="text-[#C3B1E1] font-semibold">À partir de 590€</span>
-                  <Link href="/retraites" className="text-[#8A7BC8] font-medium hover:text-[#C3B1E1] transition-colors">
+                  <span className="text-[#A89CD7] font-semibold">À partir de 590€</span>
+                  <Link href="/retraites" className="text-[#8A7BC8] font-medium hover:text-[#A89CD7] transition-colors">
                     En savoir plus
                   </Link>
                 </div>
@@ -190,8 +190,8 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-[#8A7BC8] mb-2">Ressourcement Automnal dans les Alpes</h3>
                 <p className="text-gray-600 mb-4">Une retraite dans un chalet authentique au cœur des montagnes pour vous reconnecter à votre essence.</p>
                 <div className="flex justify-between items-center">
-                  <span className="text-[#C3B1E1] font-semibold">À partir de 590€</span>
-                  <Link href="/retraites" className="text-[#8A7BC8] font-medium hover:text-[#C3B1E1] transition-colors">
+                  <span className="text-[#A89CD7] font-semibold">À partir de 590€</span>
+                  <Link href="/retraites" className="text-[#8A7BC8] font-medium hover:text-[#A89CD7] transition-colors">
                     En savoir plus
                   </Link>
                 </div>
@@ -200,7 +200,7 @@ export default function Home() {
           </div>
           
           <div className="text-center mt-12">
-            <Link href="/retraites" className="inline-flex items-center justify-center px-8 py-4 bg-[#A89CD7] text-white rounded-full font-semibold hover:bg-[#8A7BC8] transition-all duration-300 shadow-md hover:shadow-lg">
+            <Link href="/retraites" className="inline-flex items-center text-[#8A7BC8] font-semibold hover:text-[#A89CD7] transition-colors">
               Voir toutes nos retraites
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -223,7 +223,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Témoignage 1 */}
             <div className="bg-[#F9F6FF] p-8 rounded-2xl relative">
-              <svg className="absolute top-4 left-4 w-12 h-12 text-[#C3B1E1]/30" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="absolute top-4 left-4 w-12 h-12 text-[#A89CD7]/30" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <div className="pt-6">
@@ -250,7 +250,7 @@ export default function Home() {
             
             {/* Témoignage 2 */}
             <div className="bg-[#F9F6FF] p-8 rounded-2xl relative">
-              <svg className="absolute top-4 left-4 w-12 h-12 text-[#C3B1E1]/30" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="absolute top-4 left-4 w-12 h-12 text-[#A89CD7]/30" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <div className="pt-6">
@@ -277,7 +277,7 @@ export default function Home() {
             
             {/* Témoignage 3 */}
             <div className="bg-[#F9F6FF] p-8 rounded-2xl relative">
-              <svg className="absolute top-4 left-4 w-12 h-12 text-[#C3B1E1]/30" fill="currentColor" viewBox="0 0 24 24">
+              <svg className="absolute top-4 left-4 w-12 h-12 text-[#A89CD7]/30" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <div className="pt-6">
@@ -304,7 +304,7 @@ export default function Home() {
           </div>
           
           <div className="text-center mt-12">
-            <Link href="/temoignages" className="inline-flex items-center text-[#8A7BC8] font-semibold hover:text-[#C3B1E1] transition-colors">
+            <Link href="/temoignages" className="inline-flex items-center text-[#8A7BC8] font-semibold hover:text-[#A89CD7] transition-colors">
               Voir tous les témoignages
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -315,7 +315,7 @@ export default function Home() {
       </section>
 
       {/* Section CTA moderne */}
-      <section className="py-20 bg-[#A89CD7] relative overflow-hidden">
+      <section className="py-20 bg-[#8A7BC8] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-[#8A7BC8]/30"></div>
           <svg className="absolute bottom-0 left-0 w-full h-32 text-white/5" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -328,7 +328,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center text-white">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">Prête à vous offrir une parenthèse enchantée ?</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">Prête à vivre l&apos;expérience Break Mums ?</h2>
             <p className="text-xl mb-10 text-white/90">
               Rejoignez-nous pour une expérience unique qui transformera votre quotidien de maman.
             </p>
@@ -363,12 +363,12 @@ export default function Home() {
                 <input 
                   type="email" 
                   placeholder="Votre adresse email" 
-                  className="flex-1 px-6 py-4 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#A89CD7] focus:border-transparent"
+                  className="flex-1 px-6 py-4 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#8A7BC8] focus:border-transparent"
                   required
                 />
                 <button 
                   type="submit" 
-                  className="px-8 py-4 bg-[#f27e96] text-white rounded-full font-semibold hover:bg-[#e06c84] transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="px-8 py-4 bg-[#8A7BC8] text-white rounded-full font-semibold hover:bg-[#A89CD7] transition-all duration-300 shadow-md hover:shadow-lg"
                 >
                   S&apos;inscrire
                 </button>

@@ -1,0 +1,13 @@
+:root {
+  /* Couleurs du logo Break Mums */
+  --primary: #8A7BC8;     /* Violet principal */
+  --secondary: #A89CD7;   /* Violet secondaire */
+  --tertiary: #C3B1E1;    /* Violet clair */
+  --light-bg: #F5F0FF;    /* Fond clair */
+  --accent: #F5E6FF;      /* Accent pour les icônes */
+  
+  /* Couleurs complémentaires */
+  --text-dark: #333333;   /* Texte foncé */
+  --text-light: #FFFFFF;  /* Texte clair */
+  --accent-pink: #f27e96; /* Accent rose pour certains éléments */
+}

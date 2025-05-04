@@ -10,7 +10,7 @@ export default function Temoignages() {
       age: 34,
       enfants: "Maman de 2 enfants (5 et 8 ans)",
       photo: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3",
-      retraite: "Retraite Printemps en Provence",
+      retraite: "Lieu Printemps en Provence",
       texte: "Cette retraite a été une véritable bouffée d'oxygène pour moi. Après des mois de routine intense entre le travail et les enfants, j'avais besoin de me retrouver. Les ateliers de méditation m'ont particulièrement aidée à prendre conscience de mes besoins et à apprendre à m'accorder du temps sans culpabiliser. J'ai rencontré des femmes formidables avec qui j'ai pu partager mes expériences de maman. Je suis rentrée chez moi ressourcée et avec de nouveaux outils pour mon quotidien. Merci Mam'zen Attitude pour cette expérience transformatrice !"
     },
     {
@@ -37,7 +37,7 @@ export default function Temoignages() {
       age: 36,
       enfants: "Maman d'une fille (3 ans)",
       photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3",
-      retraite: "Retraite Printemps en Provence",
+      retraite: "Lieu Printemps en Provence",
       texte: "Depuis la naissance de ma fille, j'avais l'impression d'avoir perdu mon identité, de n'être plus qu'une maman. Cette retraite m'a permis de me reconnecter à la femme que je suis. Les ateliers créatifs et les cercles de parole ont été de véritables révélations pour moi. J'ai pu exprimer mes doutes, mes peurs, mais aussi redécouvrir mes passions. L'ambiance était tellement bienveillante et chaleureuse ! J'ai noué des amitiés précieuses avec d'autres mamans qui vivent les mêmes défis que moi. Cette expérience a transformé ma façon d'aborder mon rôle de mère et m'a rappelé l'importance de prendre soin de moi."
     },
     {
@@ -62,21 +62,12 @@ export default function Temoignages() {
 
   return (
     <div className="w-full">
-      {/* En-tête de page */}
-      <section className="relative py-20 bg-[#8A7BC8] text-white">
-        <div className="absolute inset-0 z-0 overflow-hidden">
-          <Image
-            src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3"
-            alt="Femmes partageant un moment ensemble"
-            fill
-            className="object-cover object-center"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#8A7BC8]/80 via-[#A89CD7]/70 to-[#C3B1E1]/60"></div>
-        </div>
-        <div className="container mx-auto px-4 z-10 relative text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4"><span className="text-[#f27e96]">Témoignages</span> de nos <span className="text-[#00a69c]">mamans</span></h1>
+      {/* En-tête de page simple */}
+      <section className="py-16 pt-24 bg-[#8A7BC8] text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Témoignages</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Découvrez les expériences vécues par les mamans qui ont participé à nos retraites.
+            Découvrez les expériences vécues par les mamans lors de nos séjours
           </p>
         </div>
       </section>
@@ -87,7 +78,7 @@ export default function Temoignages() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-[#8A7BC8] mb-4">Paroles de mamans</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ces mamans ont participé à nos retraites et partagent leur expérience
+              Ces mamans ont participé à nos séjours et partagent leur expérience
             </p>
           </div>
           
@@ -96,7 +87,7 @@ export default function Temoignages() {
               <div key={temoignage.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="p-6">
                   <div className="flex items-center mb-6">
-                    <div className="w-16 h-16 rounded-full overflow-hidden mr-4 relative border-2 border-[#f27e96]">
+                    <div className="w-16 h-16 rounded-full overflow-hidden mr-4 relative border-2 border-[#8A7BC8]">
                       <Image 
                         src={temoignage.photo} 
                         alt={temoignage.nom} 
@@ -108,7 +99,7 @@ export default function Temoignages() {
                     <div>
                       <h3 className="text-xl font-bold text-[#8A7BC8]">{temoignage.nom}</h3>
                       <p className="text-gray-500">{temoignage.age} ans, {temoignage.enfants}</p>
-                      <p className="text-[#00a69c] text-sm">{temoignage.retraite}</p>
+                      <p className="text-[#8A7BC8] text-sm">{temoignage.retraite}</p>
                     </div>
                   </div>
                   <p className="text-gray-600 italic mb-4">&quot;{temoignage.texte}&quot;</p>
@@ -120,22 +111,22 @@ export default function Temoignages() {
       </section>
 
       {/* Section CTA */}
-      <section className="py-16 bg-[#F5F0FF]">
+      <section className="py-16 bg-[#8A7BC8] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-[#8A7BC8] mb-6">Prête à vivre votre propre expérience ?</h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            Rejoignez-nous pour une retraite qui vous permettra de vous reconnecter à vous-même et de repartir ressourcée.
+          <h2 className="text-3xl font-bold mb-4">Prête à vivre votre propre expérience ?</h2>
+          <p className="text-lg text-white max-w-3xl mx-auto mb-8">
+            Rejoignez-nous pour un séjour qui vous permettra de vous reconnecter à vous-même et de repartir ressourcée.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
-              href="/retraites" 
-              className="bg-[#f27e96] hover:bg-[#e06c84] text-white transition-colors px-6 py-3 rounded-full text-lg font-medium inline-block"
+              href="/lieux" 
+              className="bg-[#8A7BC8] hover:bg-[#A89CD7] text-white transition-colors px-6 py-3 rounded-full text-lg font-medium inline-block border-2 border-white"
             >
-              Découvrir nos retraites
+              Découvrir nos lieux
             </Link>
             <Link 
               href="/contact" 
-              className="bg-[#00a69c] hover:bg-[#008c83] text-white transition-colors px-6 py-3 rounded-full text-lg font-medium inline-block"
+              className="bg-white text-[#8A7BC8] hover:bg-[#F5F0FF] transition-colors px-6 py-3 rounded-full text-lg font-medium inline-block"
             >
               Nous contacter
             </Link>

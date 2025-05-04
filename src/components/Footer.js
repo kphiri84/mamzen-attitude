@@ -15,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gradient-to-br from-[#A89CD7] to-[#8A7BC8] text-white pt-16 pb-8 relative overflow-hidden">
+    <footer className="bg-[#8A7BC8] text-white pt-16 pb-8 relative overflow-hidden">
       {/* Éléments décoratifs */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
       <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-[#C3B1E1]/20 blur-3xl -translate-y-1/2 translate-x-1/4"></div>
@@ -27,10 +27,10 @@ export default function Footer() {
           <div className="md:col-span-4">
             <div className="flex items-center mb-6">
               <span className="text-[#F5F0FF] text-3xl mr-2">✿</span>
-              <h2 className="text-xl font-bold tracking-tight text-white">Mam&apos;zen Attitude</h2>
+              <h2 className="text-xl font-bold tracking-tight text-white">Break Mums</h2>
             </div>
             <p className="text-[#F5F0FF] mb-6 leading-relaxed">
-              Des retraites spéciales pour mamans dans des lieux ressourçants pour vous reconnecter à vous-même et retrouver votre équilibre.
+              Des séjours spéciaux pour mamans dans des lieux ressourçants pour vous reconnecter à vous-même et retrouver votre équilibre.
             </p>
             <div className="flex space-x-4 mb-8">
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-all duration-300 hover:scale-110">
@@ -54,37 +54,43 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link href="/" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C3B1E1] mr-2 group-hover:scale-125 transition-transform"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A89CD7] mr-2 group-hover:scale-125 transition-transform"></span>
                   Accueil
                 </Link>
               </li>
               <li>
                 <Link href="/a-propos" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C3B1E1] mr-2 group-hover:scale-125 transition-transform"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A89CD7] mr-2 group-hover:scale-125 transition-transform"></span>
                   À propos
                 </Link>
               </li>
               <li>
-                <Link href="/retraites" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C3B1E1] mr-2 group-hover:scale-125 transition-transform"></span>
-                  Nos retraites
+                <Link href="/lieux" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A89CD7] mr-2 group-hover:scale-125 transition-transform"></span>
+                  Nos lieux
+                </Link>
+              </li>
+              <li>
+                <Link href="/ateliers" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A89CD7] mr-2 group-hover:scale-125 transition-transform"></span>
+                  Ateliers
                 </Link>
               </li>
               <li>
                 <Link href="/temoignages" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C3B1E1] mr-2 group-hover:scale-125 transition-transform"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A89CD7] mr-2 group-hover:scale-125 transition-transform"></span>
                   Témoignages
                 </Link>
               </li>
               <li>
                 <Link href="/galerie" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C3B1E1] mr-2 group-hover:scale-125 transition-transform"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A89CD7] mr-2 group-hover:scale-125 transition-transform"></span>
                   Galerie
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="group flex items-center text-[#F5F0FF] hover:text-white transition-colors">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#C3B1E1] mr-2 group-hover:scale-125 transition-transform"></span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#A89CD7] mr-2 group-hover:scale-125 transition-transform"></span>
                   Contact
                 </Link>
               </li>
@@ -101,7 +107,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <span className="pt-2">contact@mamzen-attitude.fr</span>
+                <a href="mailto:contact@breakmums.fr" className="hover:text-white transition-colors">contact@breakmums.fr</a>
               </li>
               <li className="flex items-start group">
                 <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center mr-3 group-hover:bg-white/20 transition-all duration-300">
@@ -109,7 +115,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
-                <span className="pt-2">06 XX XX XX XX</span>
+                <a href="tel:+33612345678" className="hover:text-white transition-colors">+33 6 12 34 56 78</a>
               </li>
             </ul>
           </div>
@@ -118,7 +124,7 @@ export default function Footer() {
           <div className="md:col-span-3">
             <h3 className="text-lg font-semibold mb-6 text-white">Newsletter</h3>
             <p className="text-[#F5F0FF] mb-4">
-              Recevez nos actualités et offres spéciales directement dans votre boîte mail.
+              Recevez nos actualités et offres spéciales pour nos séjours et ateliers.
             </p>
             <form onSubmit={handleSubmit} className="flex flex-col space-y-3">
               <div className="relative">
@@ -128,12 +134,12 @@ export default function Footer() {
                   onChange={(e) => setEmailValue(e.target.value)}
                   placeholder="Votre adresse email"
                   required
-                  className="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-white/60 border border-white/20 focus:outline-none focus:ring-2 focus:ring-white/30 transition-all"
+                  className="w-full px-4 py-3 rounded-lg bg-white/10 text-white placeholder-white/60 border border-white/20 focus:outline-none focus:ring-2 focus:ring-[#A89CD7] focus:border-transparent transition-all"
                 />
               </div>
               <button
                 type="submit"
-                className="w-full bg-white text-[#8A7BC8] font-medium py-3 px-4 rounded-lg hover:bg-[#F5F0FF] transition-colors duration-300"
+                className="w-full bg-[#A89CD7] text-white font-medium py-3 px-4 rounded-lg hover:bg-[#8A7BC8] transition-colors duration-300"
               >
                 S&apos;inscrire
               </button>
@@ -141,9 +147,9 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="mt-16 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center text-[#F5F0FF] text-sm">
-          <p> {currentYear} Mam&apos;zen Attitude. Tous droits réservés.</p>
-          <div className="mt-4 md:mt-0 flex space-x-6">
+        <div className="mt-12 pt-8 border-t border-white/20 text-center text-[#F5F0FF]">
+          <p> {currentYear} Break Mums. Tous droits réservés.</p>
+          <div className="mt-4 flex space-x-6">
             <Link href="/mentions-legales" className="hover:text-white transition-colors">
               Mentions légales
             </Link>
